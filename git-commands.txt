@@ -1,0 +1,8 @@
+# Skapar en ny lokal git repo.
+git init
+
+# Lägger till nya filer
+git add .
+
+# Sparar ändringar
+git commit -m "Lektion 1"
