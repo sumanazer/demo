@@ -16,3 +16,10 @@ git commit -m "Lektion 1"
 
 # Ladda upp alla filer till remote repo.  Görs varje gång man gjort ändringar
 git push origin master
+
+#------------------------------------------------------------------------------------------------------------
+# För att hämta de senaste filerna från remote repo.
+git pull origin master
+
+#För att hämta andras git eller klona dom
+git clone htts://  Länkadressen
