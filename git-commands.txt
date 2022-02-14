@@ -1,8 +1,18 @@
 # Skapar en ny lokal git repo.
 git init
 
-# Lägger till nya filer
+#Lägg till en remot repo för laging i git, Detta görs bara en gång per projekt
+git remote add origin https://github.com/sumanazer/demo.git
+
+
+
+
+
+# Lägger till nya filer/ändrade filer till min lokala git rep. Görs varje gång man gjort ändringar
 git add .
 
-# Sparar ändringar
+# Sparar alla ändringar till lokala git repo.  Görs varje gång man gjort ändringar
 git commit -m "Lektion 1"
+
+# Ladda upp alla filer till remote repo.  Görs varje gång man gjort ändringar
+git push origin master
